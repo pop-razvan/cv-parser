@@ -1,0 +1,15 @@
+{
+    "name": "monoscript",
+    "version": "1.0.0",
+    "description": "Monorepo with Next.js, Python",
+    "scripts": {
+        "server-dev": "python3 server/src/api.py",
+        "dev": "concurrently \"npm run dev --prefix client\" \"npm run server-dev\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^9.0.1"
+    }
+}
